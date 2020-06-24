@@ -88,7 +88,7 @@ var LogDetails = false; //是否开启响应日志, true则开启
 
 var stop = 0; //自定义延迟签到,单位毫秒. 默认并发无延迟. (延迟作用于每个签到接口, 如填入延迟则切换顺序签到. Surge用户请注意在UI界面调整脚本超时)
 
-var DeleteCookie = true; //是否清除Cookie, true则开启
+var DeleteCookie = false; //是否清除Cookie, true则开启
 
 var out = 5000; //接口超时退出, 用于可能发生的网络不稳定. 建议不少于3000毫秒, 0则关闭.
 
